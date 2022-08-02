@@ -49,3 +49,8 @@ f.PrintMeTwice('mlo')
 
 f1 = Foo.new
 # f1.PrintMeTwice('mlo') undefined method `PrintMeTwice'
+
+#blocks methods proc lambda
+# proc like block
+# lambda like method
+
