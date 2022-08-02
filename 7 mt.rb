@@ -46,3 +46,6 @@ def f.PrintMeTwice(s)
 end
 
 f.PrintMeTwice('mlo')
+
+f1 = Foo.new
+# f1.PrintMeTwice('mlo') undefined method `PrintMeTwice'
