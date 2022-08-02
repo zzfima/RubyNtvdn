@@ -1,4 +1,8 @@
 class Animal
+  # height member
+  # weight protected
+  # name global
+
   # height as get
   # weight as set
   attr_reader :height
@@ -6,8 +10,9 @@ class Animal
 
   #ctor
   def initialize(w, h)
-    @weight = w
+    @@weight = w
     @height = h
+    $name_animal = "Animal"
   end
 
   #object method
@@ -17,7 +22,7 @@ class Animal
 
   #class method
   def Animal.class_name
-    "Animal"
+    $name_animal
   end
 end
 
@@ -26,5 +31,6 @@ puts a1.get_weight
 puts a1.height
 a1.weight = 44
 puts a1.get_weight
+puts $name_animal
 
 puts Animal.class_name
