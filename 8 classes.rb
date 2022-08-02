@@ -1,6 +1,6 @@
 class Animal
   # height member
-  # weight protected
+  # weight static
   # name global
 
   # height as get
